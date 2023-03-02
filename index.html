@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+</head>
+</head>
+<body>
+        <nav class="nav-menu">  
+
+            <div class="container">    
+                <section class="logo-section">
+                    <a class="header-text">
+                        <img src="images/bong.png" alt="Logo">
+                        <a class="logo-name">STEEZY</a>
+                    </a>
+                </section>
+                <section class="menu">  
+                    <a href="" class="nav-link"> <i class="fa-solid fa-house"></i> Home </a>         
+                    <a href="" class="nav-link"><i class="fa-solid fa-circle-info"></i>About</a>
+                    <a href="" class="nav-link">Images</a>                       
+                </section>       
+            
+                <button class="hamburger" onmouseover=displayDate()>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            
+        </nav>
+
+        <div class="page-container">     
+            <section class="first-page">
+                <h1>First page</h1>
+            </section>
+
+            <section class="second-page">
+                <h1>Second page</h1>
+            </section>
+
+            <section class="third-page">
+                <h1>Third page</h1>
+            </section>
+        </div>
+            
+    <script src="main.js">
+    </script>
+    <script>
+        function displayDate() {
+            document.getElementById("text").innerHTML = Date();
+            }
+    </script>
+</body>
+</html>
